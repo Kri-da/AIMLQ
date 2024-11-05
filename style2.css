@@ -37,17 +37,23 @@ body{
   cursor: pointer;
 
    
-    background-color: darkcyan;
+    background-color: rgb(232, 251, 28);
     position: relative;
     animation-name: btnani;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 @keyframes btnani {
     0%   { left:-10%; }
     
     100% { left:100%; }
   }
+
+@media screen and (max-width: 600px) {
+    div.btn {
+      display: none;
+    }
+  }  
 
 
