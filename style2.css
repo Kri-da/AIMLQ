@@ -23,3 +23,31 @@ body{
 
 }
 
+.btn{
+  
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 30px 2px;
+  cursor: pointer;
+
+   
+    background-color: darkcyan;
+    position: relative;
+    animation-name: btnani;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 7s;
+}
+@keyframes btnani {
+    0%   { left:-10%; }
+    
+    100% { left:100%; }
+  }
+
+
