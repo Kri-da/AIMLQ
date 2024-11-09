@@ -62,3 +62,23 @@ body,html{
     font-stretch: expanded;
     font-size: 30px;
 }
+
+.link-btn{
+  border: none;
+  border-radius: 50px;
+  color: rgb(208, 9, 9);
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin:5px 0;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px rgb(43, 43, 43) inset;
+
+   
+    background-color: #ffffff;
+    position: relative;
+    
+    
+}
